@@ -1,2 +1,2 @@
-echo $abc
+echo $ac Kim
 echo shell started
