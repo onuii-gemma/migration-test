@@ -16,6 +16,6 @@ jobs:
 
     - name: shell test
       run: |
-        export ac="gemma"
+        export ac=${{ secrets.MONGO_URI }}
         bash ${GITHUB_WORKSPACE}/example.sh test
         echo Hello Bash Shell Started
