@@ -16,6 +16,6 @@ jobs:
 
     - name: shell test
       run: |
-        bash ${GITHUB_WORKSPACE}/example.sh test
         abc=1 ./example.sh
+        bash ${GITHUB_WORKSPACE}/example.sh test
         echo Hello Bash Shell Started
