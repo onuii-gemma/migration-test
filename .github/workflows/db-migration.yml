@@ -16,5 +16,5 @@ jobs:
 
     - name: shell test
       run: |
-        export ORIGIN_MONGO_URI_DEV=${{ secrets.ORIGIN_MONGO_URI_DEV }}
+# export ORIGIN_MONGO_URI_DEV=${{ secrets.ORIGIN_MONGO_URI_DEV }}
         bash ${GITHUB_WORKSPACE}/example.sh test
