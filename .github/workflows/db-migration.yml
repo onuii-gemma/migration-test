@@ -16,4 +16,4 @@ jobs:
 
     - name: shell test
       run: |
-        bash ${GITHUB_WORKSPACE}/scripts/example.sh test
+        bash ${GITHUB_WORKSPACE}/example.sh test
