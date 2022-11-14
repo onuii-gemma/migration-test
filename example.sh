@@ -1,1 +1,2 @@
-echo Hello Bash Shell Started
+echo $abc
+echo shell started
