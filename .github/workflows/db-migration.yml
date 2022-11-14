@@ -16,6 +16,5 @@ jobs:
 
     - name: shell test
       run: |
-        export ac=${{ secrets.MONGO_URI }}
+        export ORIGIN_MONGO_URI_DEV=${{ secrets.ORIGIN_MONGO_URI_DEV }}
         bash ${GITHUB_WORKSPACE}/example.sh test
-        echo Hello Bash Shell Started
